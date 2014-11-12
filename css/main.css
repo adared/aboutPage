@@ -1,0 +1,648 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ---- 
+   Mobile first base styles here
+---- */
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+
+
+/* General styles */
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #777;
+}
+
+h2 {
+    font-family: "Montserrat", Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 21px;
+    color: #222;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 20px 0 21px 0;
+}
+
+section {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+
+/* Typography */
+
+ li a {
+    height: 50px;
+    color: #fff;
+    padding: 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+
+/* Layout */
+
+.about-us img {
+    float: right;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0px;
+}
+
+.about-us h2 {
+    margin: 0;
+}
+
+.about {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.anchor {
+    height: 0px;
+    width: 0px;
+}
+
+
+/* Header */
+
+header {
+    background-image: url('../img/manhattan.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 26em;
+    position: relative;
+    margin: 0px;
+}
+
+
+
+/* Navigation */
+
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0px;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+nav ul {
+    display: block;
+    width: 85%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav ul li {
+    border-top: 1px solid gray;
+    float: left;
+    width: 20%;
+    min-width: 100px;
+    font-size: 1em;
+    margin: 0;
+}
+
+.selected {
+    border-top: 2px solid #f24b1a;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+/* Content */
+
+.content {
+    width: 100%;
+}
+
+.content h1 {
+    color: black;
+    font-size: 1.3em;
+}
+
+.emplist {
+    display: block;
+    overflow: hidden;
+    width: 99.99%;
+    margin: 0 auto;
+}
+
+.emp {
+    width: 17%;
+    min-width: 129px;
+    max-width: 196px;
+    height: 15em;
+    position: relative;
+    float: left;
+    margin-right: 21px;
+    margin-bottom: 21px;
+    background-size: cover;
+    background-position: center top;
+}
+
+#PJ {
+    background-image: url('../img/PJ.jpg');
+}
+
+#Jonathan {
+    background-image: url('../img/Jonathan.png');
+}
+
+#Mike {
+    background-image: url('../img/Mike.jpg');
+}
+
+#Ashley {
+    background-image: url('../img/Ashley.jpg');
+    background-position: 50% 10%;
+}
+
+#Ricardo {
+    background-image: url('../img/Ricardo.jpg');
+}
+
+#Jason {
+    background-image: url('../img/Jason.jpg');
+}
+
+#Claudia {
+    background-image: url('../img/Claudia.jpg');
+}
+
+#Jeff {
+    background-image: url('../img/Jeff.jpg');
+}
+
+#John {
+    background-image: url('../img/John.jpg');
+}
+
+#Steve {
+    background-image: url('../img/Steve.jpg');
+}
+
+#Josh {
+    background-image: url('../img/Josh.png');
+}
+
+#Sulia {
+    background-image: url('../img/Sulia.png');
+}
+
+.over {
+    width: 100%;
+    height: 15em;
+    color: rgba(255, 255, 255, 0);
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    -o-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+.firstName {
+    margin-top: 5.5em;
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+
+.lastName {
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 19px;
+}
+
+.emp:hover .over {
+  background: rgba(255, 255, 255, .9);
+  color: #222;
+}
+
+.investors {
+    background-image: url('../img/flatiron.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.investors h2 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.investor {
+    width: 22%;
+    min-width: 200px;
+    height: 14.6em;
+    margin: 1em;
+    padding: 1em 2em;
+    float: left;
+    opacity: 0.9;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+}
+
+.investor img {
+    width: 100%;
+    margin: 0 auto;
+    max-height: 12.6em;
+}
+
+.investor:hover {
+    opacity: 1;
+}
+
+#firstmark {
+    margin-top: 47px;
+}
+
+
+#village {
+    
+}
+
+#ventures {
+    margin-top: 62px;
+}
+
+#founder {
+    margin-top: 25px;
+}
+
+#angel {
+    margin-top: 28px;
+}
+
+#greycroft {
+    margin-top: 47px;
+
+}
+
+#metamorphic {
+    margin-top: 60px;
+
+}
+
+.network {
+    margin: 0;
+    background-image: url('../img/networkdark.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.networkinfo {
+    margin: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    width: 60%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.networkinfo h2 {
+    color: white;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contactreason {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    padding: 3em;
+}
+
+.contactrason:first-child {
+    margin-left: 0px;
+}
+
+.email {
+    color: #f24b1a;
+}
+
+
+
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 635px) {
+
+nav {
+    display: none;
+}
+
+.about-us img {
+    display: none;
+}
+
+header {
+    height: 7em;
+    background-attachment: scroll;
+    background-size: 600px 20em;
+}
+
+.emp {
+    width: 100%;
+    height: 18em;
+}
+
+.contactreason {
+    width: 100%;
+    display: block;
+}
+
+.over {
+    color: #222;
+    display: block;
+    height: 3em;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    -o-transition: none;
+    -ms-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    z-index: 100;
+    top: 83%;
+}
+
+.firstName {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.lastName {
+    display: inline-block;
+}
+
+.networkinfo {
+    width: 100%;
+}
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
